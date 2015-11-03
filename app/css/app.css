@@ -1,0 +1,72 @@
+body.zipcode-false {
+    background-image : url('http://serc.carleton.edu/images/sp/library/google_earth/google_maps_hello_world.jpg');
+}
+
+/* utils */
+
+.m-bottom {
+  margin-bottom: 10px;
+}
+
+/* end of utils */
+
+.modal-backdrop.light {
+    background-color: #fff;
+}
+
+.search-zipcode {
+  margin-top: 10px;
+}
+
+.search-label {
+  color: #fff;
+}
+.loading-indicator {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+.loading-indicator.hide {
+  display: none;
+}
+.loading-indicator .text {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #FFF;
+  box-shadow: 0 0 5px 1px #000;
+  background-color: #000;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -50px;
+}
+.bs-docs-sidebar.places-container {
+  max-height: 600px;
+  overflow: scroll;
+}
+.show-searchplace {
+  clear: both;
+  text-align: center;
+  color: #ddd;
+}
+.list-markers {
+  max-width: none;
+}
+/** Bootstrap overrides **/
+.navbar .btn {
+  margin-top: 0;
+}
+.table tr.active {
+  background-color: #B0CF82;
+}
+.table tr.active td {
+  background-color: transparent !important;
+}
+
